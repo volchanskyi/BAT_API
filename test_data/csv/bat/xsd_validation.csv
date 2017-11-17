@@ -1,0 +1,6 @@
+BAT-01.01 (XSD Validation Type # 1),test_data/xsd/bat/bat_t1.xsd,http://alex.academy/xml/bat.xml
+BAT-01.02 (XSD Validation Type # 2),test_data/xsd/bat/bat_t2.xsd,http://alex.academy/xml/bat.xml
+BAT-01.03 (XSD Validation Type # 3),test_data/xsd/bat/bat_t3.xsd,http://alex.academy/xml/bat.xml
+BAT-01.04 (XSD Validation Type # 1),test_data/xsd/bat/bat_e1.xsd,http://alex.academy/xml/bat_e1.xml
+BAT-01.05 (XSD Validation Type # 2),test_data/xsd/bat/bat_t2.xsd,http://alex.academy/xml/bat_e2.xml
+BAT-01.06 (XSD Validation Type # 3),test_data/xsd/bat/bat_t3.xsd,http://alex.academy/xml/bat_e3.xml

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="poet">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+									<xs:pattern value="Boris Pasternak"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="dob">
+								<xs:simpleType>
+									<xs:restriction base="xs:date">
+									<xs:enumeration value="1890-02-10"/>
+									<xs:enumeration value="1890-01-29"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="age">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:pattern value="70"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="nobel">
+								<xs:simpleType>
+									<xs:restriction base="xs:boolean">
+										<xs:pattern value="true"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

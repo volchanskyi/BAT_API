@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="poet">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name"/>
+							<xs:element name="dob"/>
+							<xs:element name="age"/>
+							<xs:element name="nobel"/>
+							<xs:element name="qa" type='xs:string' minOccurs="0"/>
+						</xs:sequence>
+						<xs:attribute name="id"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
